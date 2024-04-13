@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f6041d15.css",
+    "main.js": "/static/js/main.247b0596.js",
+    "static/media/Opetit .png": "/static/media/Opetit .9ca97e07b7a0f6cfab66.png",
+    "static/media/heroImage.jpg": "/static/media/heroImage.e12f9c988808612c3a37.jpg",
+    "static/media/py.png": "/static/media/py.4b4e140f7bf2a79dec7a.png",
+    "static/media/sql.png": "/static/media/sql.9a8c4ff3165dc6d96ba4.png",
+    "static/media/GSB.png": "/static/media/GSB.0c5803ee297ec650adb4.png",
+    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/php.png": "/static/media/php.cd3727fd99158070887f.png",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/java.png": "/static/media/java.f03bb7a7778ab831e4db.png",
+    "index.html": "/index.html",
+    "main.f6041d15.css.map": "/static/css/main.f6041d15.css.map",
+    "main.247b0596.js.map": "/static/js/main.247b0596.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6041d15.css",
+    "static/js/main.247b0596.js"
+  ]
+}
