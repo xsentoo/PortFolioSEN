@@ -1,40 +1,63 @@
-import React from 'react'
+import React from "react";
 
-const about = () => {
+const About = () => {
   return (
-    <div name="about" className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
-        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-            <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About Me</p>
-            </div>
-
-
-              <p className='text-xl mt-20'> My name is Alexandros Georgiadis. I am Greek and the last 5 years I am living
-              and working in Bordeaux. I am a cabin crew supervisor and recently I finished a full-stack intence Bootcamp
-              in web Develpment
-              Now I am looking forward to start my career as web developer  </p>
-
-
-              <br />
-
-              <p className='text-xl'> During the bootcamp we set up several Projects in teams of four.
-              The stacks we used are Ruby, Ruby in Rails, HTML5, SASS, SQL, Javascript and Github.The projects were
-              initialy designed on Figma and were deployd in Heroku.  </p>
-
-              <br />
-
-              <p className='text-xl'> After the bootcamp I kept studing new techs by my own.
-              So far I am studing React with Tailwind. I have additional knowledge in Wordpress by
-              using ready themes or even editing custom themes.</p>
-
-              <br />
-
-              <p className='text-xl'> My experiece in previous jobs tought me how to work
-              in a team and proactive under preasure. I believe that my passion for coding and new technologies my great asset.
-              I would be excited to work in your team </p>
+    <div
+      name="about"
+      className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+    >
+      <div className="max-w-screen-lg p-8 mx-auto flex flex-col justify-center w-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            Qu'est-ce que le BTS SIO ?
+          </p>
         </div>
-    </div>
-  )
-}
 
-export default about
+        <p className="text-xl mt-8">
+          Le Brevet de Technicien Supérieur en Services Informatiques aux Organisations (BTS SIO) s'adresse à ceux qui souhaitent acquérir une formation complète en deux ans dans les domaines de l'administration réseau ou du développement informatique. Cette formation vise à préparer les étudiants soit à intégrer directement le marché du travail, soit à poursuivre des études supérieures dans le domaine de l'informatique.
+        </p>
+
+        <div className="pb-8 mt-8">
+          <p className="text-2xl font-bold inline border-b-4 border-gray-500">
+            Le BTS SIO propose deux spécialités :
+          </p>
+        </div>
+
+        <div className="text-xl mt-4">
+          <p className="font-bold">Option SISR</p>
+          <p>
+            L’option Solution d’infrastructure, systèmes et réseaux forme des professionnels des réseaux et équipements informatiques (installation, maintenance, sécurité). En sortant d’un BTS SIO SISR, vous serez capables de gérer et d’administrer le réseau d’une société et d’assurer sa sécurité et sa maintenance. Les techniciens supérieurs en informatique option SISR peuvent accéder aux métiers de :
+          </p>
+          <ul className="list-disc pl-8 mt-4">
+            <li>Administrateur systèmes et réseaux</li>
+            <li>Informaticien support et déploiement</li>
+            <li>Pilote d’exploitation</li>
+            <li>Support systèmes et réseaux</li>
+            <li>Technicien d’infrastructure</li>
+            <li>Technicien de production</li>
+            <li>Technicien micro et réseaux</li>
+          </ul>
+        </div>
+
+        <div className="text-xl mt-8">
+          <p className="font-bold">Option SLAM</p>
+          <p>
+            L’option Solutions logicielles et applications métiers forme des spécialistes des logiciels (rédaction d’un cahier des charges, formulation des besoins et spécifications, développement, intégration au sein de la société). Les techniciens supérieurs en informatique option SLAM sont préparés aux métiers de :
+          </p>
+          <ul className="list-disc pl-8 mt-4">
+            <li>Développeur d’applications informatiques</li>
+            <li>Développeur informatique</li>
+            <li>Analyste d’applications ou d’études</li>
+            <li>Analyste programmeur</li>
+            <li>Programmeur analyste</li>
+            <li>Programmeur d’applications</li>
+            <li>Responsable des services applicatifs</li>
+            <li>Technicien d’études informatiques</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;
