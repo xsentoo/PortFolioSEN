@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/xsenthoo",
+      href: "https://github.com/xsentoo",
     },
     {
       id: 3,
@@ -40,9 +40,9 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: process.env.PUBLIC_URL + "/resume.pdf", // Utiliser PUBLIC_URL pour obtenir le bon chemin
       style: "rounded-br-md",
-      download: true,
+      download: "resume.pdf", // Définir le nom du fichier à télécharger
     },
   ];
 
