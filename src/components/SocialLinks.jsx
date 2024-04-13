@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://facebook.com",
+      href: "https://www.linkedin.com/in/senthooran-thayaparan/",
       style: "rounded-tr-md",
     },
     {
