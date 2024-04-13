@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/xsentoo",
+      href: "https://github.com/xsenthoo",
     },
     {
       id: 3,
@@ -61,7 +61,7 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-              {...(download && { download: "resume.pdf" })}
+              download={download}
               target="_blank"
               rel="noreferrer"
             >
