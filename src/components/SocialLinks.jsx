@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://facebook.com",
       style: "rounded-tr-md",
     },
     {
@@ -40,9 +40,9 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: process.env.PUBLIC_URL + "/resume.pdf", // Utiliser PUBLIC_URL pour obtenir le bon chemin
       style: "rounded-br-md",
-      download: true,
+      download: "resume.pdf", // Définir le nom du fichier à télécharger
     },
   ];
 
@@ -61,7 +61,7 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-              {...(download && { download: "resume.pdf" })}
+              download={download}
               target="_blank"
               rel="noreferrer"
             >
